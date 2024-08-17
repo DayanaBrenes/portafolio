@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="logo.png" alt="Logo" class="logo">
+        <a class="navbar-brand" href="#">Mi Portafolio Web</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Habilidades</a>
+                </li>  
+                <div id="google_translate_element"></div>
+
+                <script type="text/javascript">
+                function googleTranslateElementInit() {
+                  new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                }
+                </script>
+                
+                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de Presentación -->
+    <header class="jumbotron text-center">
+        <h1 id="description" class="display-4">Desarrollador web apasionado por crear soluciones digitales y proyectos para mejorar la seguridad de sus tecnologías.</h1>
+        <a class="btn btn-download-cv btn-lg" href="Dayana Brenes CV.pdf" download="CV_DayanaBrenes" role="button">Descargar Mi CV</a>
+    </header>
+
+    <!-- Sobre mí -->
+    <section id="about" class="container my-5">
+        <h2 id="about-title" class="text-center">Sobre mí</h2>
+        <p id="about-text" class="text-center">Bienvenido a mi Portafolio web, soy una desarrolladora de software y tecnica en ciberseguridad e con el dominio de tecnologías como .NET, Java, Python, telematica, maquinas virtuales, siendo capaz de demostrar estos conocimientos en proyectos</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container my-5">
+        <h2 id="skills-title" class="text-center mb-4">Mis Habilidades</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="card custom-card">
+                    <div class="card-body">
+                        <h4 class="card-title">Desarrollo Front-End</h4>
+                        <p class="card-text">HTML, CSS, JavaScript, Bootstrap</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="card custom-card">
+                    <div class="card-body">
+                        <h4 class="card-title">Desarrollo Back-End</h4>
+                        <p class="card-text">Java, Python, MongoDB, C#</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="card custom-card">
+                    <div class="card-body">
+                        <h4 class="card-title">Ciberseguridad</h4>
+                        <p class="card-text">DNS, Linux, Virtual Machines, Telematica</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="container my-5">
+        <h2 class="text-center mb-4">Mis Proyectos</h2>
+        <div class="row">
+            <!-- Proyecto 1 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="redes-informaticas-e1537289477478.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Creacion de redes</h5>
+                        <p class="card-text">Creacion de las redes de una empresa desde cero.</p>
+                        <a href="https://enlace_al_proyecto1.com" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="pagina-inicio-servicio-atencion-medica-hospital_23-2150399023.avif" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Creacion de una pagina web de un hospital</h5>
+                        <p class="card-text">Una pagina web de un hospital junto con su logica y base de datos.</p>
+                        <a href="https://enlace_al_proyecto2.com" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="Agregar-Estudiante-Sistema-de-Gestión-de-Matrículas.webp" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Creacion de una pagina para matriculas</h5>
+                        <p class="card-text">Pagina web para matricular cursos de universidad, su base de datos y logica.</p>
+                        <a href="https://enlace_al_proyecto3.com" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Contacto -->
+    <section id="contact" class="container my-5">
+        <h2 id="contact-title" class="text-center">Contacto</h2>
+        <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <div class="text-center mt-4">
+            <a class="btn btn-whatsapp btn-lg" href="https://wa.me/50685049719" target="_blank" role="button">
+                <i class="fab fa-whatsapp"></i>
+                Contactar por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4 text-center">
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
+
+
+
+

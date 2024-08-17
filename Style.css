@@ -1,0 +1,300 @@
+/* Estilos Generales */
+body {
+    font-family: 'helvetica', sans-serif;
+    background-color: #93A6AB;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navegación */
+.navbar {
+    background-color:#D3ACD1;
+}
+
+.navbar-brand, .nav-link {
+    color: #D3ACD1 !important;
+}
+
+.nav-link:hover {
+    color: #D3ACD1 !important; /* Amarillo */
+}
+
+/* Header */
+header.jumbotron {
+    background: #D3ACD1;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+header .btn-primary {
+    background-color: #D3ACD1;
+    border-color: #D3ACD1;
+    color: #333;
+}
+
+header .btn-primary:hover {
+    background-color: #D93A6AB;
+    border-color: #93A6AB;
+}
+header .btn-secondary {
+    background-color: #93A6AB; /* Verde */
+    border-color: #D3ACD1;
+    color: white;
+    margin-left: 10px; /* Espacio entre los botones */
+}
+
+header .btn-secondary:hover {
+    background-color: #93A6AB;
+    border-color: #D3ACD1;
+}
+
+/* Sobre mí */
+#about {
+    background-color: #D3ACD1;
+    padding: 60px 0;
+}
+
+#about h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#about p {
+    color: #fff; /* Color gris oscuro para el párrafo */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    line-height: 1.6; /* Altura de línea para mejor legibilidad */
+}
+
+/* Sección de Skills */
+#skills {
+    background-color: #D3ACD1; /* Fondo gris claro */
+    padding: 60px 0;
+    color: 93A6AB
+}
+
+/* Título de la Sección */
+#skills h2 {
+    color: #fff; /* Color azul para el título */
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+#skills h2 {
+    color: #fff; /* Azul para el título */
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* CSS personalizado */
+.custom-card {
+    background-color: #93A6AB; /* Fondo naranja */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
+}
+
+
+.progress-bar {
+    font-weight: bold;
+    color: #fff;
+    text-align: center; /* Centrar el porcentaje en la barra */
+}
+
+.progress {
+    height: 20px; /* Altura de las barras de progreso */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 15px; /* Espacio superior para las barras */
+}
+
+
+/* Contacto */
+#contact {
+    background-color: #D3ACD1;
+    padding: 60px 0;
+}
+#contact h2 {
+    color: #fff; /* Color naranja brillante */
+    margin-bottom: 40px;
+    font-size: 2.5rem; /* Tamaño de fuente */
+    text-align: center; /* Centrar el título */
+}
+
+#contact label {
+    color: #fff; /* Color azul para las etiquetas */
+    font-weight: bold;
+}
+
+#contact .form-control {
+    background-color: #D3ACD1; /* Fondo blanco para los campos */
+    border: 1px solid #93A6AB; /* Borde azul */
+    color: #fff; /* Color del texto */
+    padding: 10px;
+    border-radius: 5px;
+}
+#contact .btn-primary {
+    background-color: #93A6AB; /* Color de fondo azul */
+    border-color: #D3ACD1; 
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+/* Botón de Contactar por WhatsApp */
+
+
+.btn-whatsapp:hover {
+    transform: translateY(-3px); /* Eleva el botón */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+/* Botón de Descargar CV */
+.btn-download-cv {
+    background-color: #93A6AB; /* Azul */
+    border-color: #D3ACD1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-download-cv:hover {
+    transform: translateY(-3px); /* Eleva el botón */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+
+
+
+/* Botón de WhatsApp */
+#contact .btn-whatsapp {
+    background-color: #93A6AB; /* Color verde de WhatsApp */
+    border-color: #D3ACD1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Tamaño de fuente */
+    transition: background-color 0.3s ease;
+}
+
+/* Footer */
+footer {
+    background-color: #D3ACD1;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+.logo {
+    height: 40px; /* Ajusta la altura del logo */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+}
+
+#google_translate_element {
+    margin-top: 10px;
+    text-align: right; /* Mueve el widget a la derecha */
+  }
+  
+  .goog-te-banner-frame.skiptranslate {
+    display: none !important;
+  } 
+  
+  body {
+    top: 0px !important;
+  }
+  
+  /* Personaliza el selector de idioma */
+  .goog-te-combo {
+    padding: 5px;
+    font-size: 1rem;
+    border: 2px solid #D3ACD1;
+    border-radius: 5px;
+    color: #93A6AB;
+  }
+
+  /* Estilos para la Sección de Proyectos */
+#projects {
+    background-color: #D3ACD1; /* Fondo gris claro */
+    padding: 60px 0;
+}
+
+#projects h2 {
+    color: #fff; /* Color azul para el título */
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease;
+    background-color: #93A6AB;
+}
+
+.project-card .card-body {
+    flex: 1; /* Expande el cuerpo de la tarjeta para ocupar todo el espacio disponible */
+}
+
+
+
+.project-card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
+}
+
+.project-card img {
+    height: 200px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área */
+}
+
+.project-card .btn-primary {
+    background-color: #93A6AB; /* Color del botón */
+    border-color: #D3ACD1;
+    transition: background-color 0.3s ease;
+}
+
+.project-card .btn-primary:hover {
+    background-color: #93A6AB; /* Color del botón al pasar el ratón */
+}
+
+.project-card .card-title {
+    color: #fff; /* Cambia este color por el que prefieras */
+    font-weight: bold; /* Poner el texto en negrita */
+    font-size: 1.5rem; /* Tamaño del título */
+    margin-bottom: 15px; /* Espacio debajo del título */
+}
+
+/* Cambiar el color de la descripción de las tarjetas de proyectos */
+.project-card .card-text {
+    color: #fff;f /* Cambia este color por el que prefieras */
+    font-size: 1rem; /* Tamaño de la descripción */
+    margin-bottom: 15px; /* Espacio debajo de la descripción */
+}
+
+
+
